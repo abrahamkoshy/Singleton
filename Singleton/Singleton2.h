@@ -15,7 +15,7 @@ private:
     //or assignment operator
     Singleton2() {};
     ~Singleton2() {};
-    Singleton2(Singleton2& other);
-    Singleton2& operator=(Singleton2& rhs);
+    Singleton2(const Singleton2& other);
+    Singleton2& operator=(const Singleton2& rhs);
 };
 

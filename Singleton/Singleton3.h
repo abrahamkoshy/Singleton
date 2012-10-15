@@ -15,8 +15,8 @@ protected:
     //or assignment operator
     Singleton3() {};
     ~Singleton3() {};
-    Singleton3(Singleton3& other);
-    Singleton3& operator=(Singleton3& rhs);
+    Singleton3(const Singleton3& other);
+    Singleton3& operator=(const Singleton3& rhs);
 
 private:
     //the one and only instance of this class
